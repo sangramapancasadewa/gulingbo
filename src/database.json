@@ -1,0 +1,156 @@
+{
+  "banned": [],
+  "antispam": [],
+  "users": {
+    "6288224135175@s.whatsapp.net": {
+      "serialNumber": "ef9dbf230b663e84fc353dcf2296785c",
+      "title": "Premium",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "Sangrama",
+      "premium": "true",
+      "limit": 934,
+      "totalLimit": 58,
+      "banned": {}
+    },
+    "6288988326132@s.whatsapp.net": {
+      "serialNumber": "f92a3ab49fc4920d9679e0bdb388c9e6",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "Xyugar Sars",
+      "premium": false,
+      "limit": 982,
+      "totalLimit": 20,
+      "banned": {}
+    },
+    "62895414362286@s.whatsapp.net": {
+      "serialNumber": "dfdc1d8e235b0564403b82e7ffc6768e",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "༒𝙲𝚁𝙰𝚉𝚈 𝙺𝙸𝙻𝙻𝙴𝚁࿐",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 1
+    },
+    "6285293786046@s.whatsapp.net": {
+      "serialNumber": "6f23ec38631094ad9e49f543b6e8b597",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "Basuki",
+      "premium": false,
+      "limit": 12,
+      "totalLimit": 3,
+      "banned": {}
+    }
+  },
+  "chats": {
+    "6288224135175@s.whatsapp.net": {
+      "autosimi": false,
+      "badword": false,
+      "antilink": false,
+      "antilinkgc": false,
+      "notification": {
+        "status": false,
+        "text_left": "",
+        "text_welcome": ""
+      }
+    },
+    "120363193923521487@g.us": {
+      "autosimi": false,
+      "badword": false,
+      "antilink": false,
+      "antilinkgc": false,
+      "notification": {
+        "status": true,
+        "text_left": "",
+        "text_welcome": ""
+      }
+    },
+    "62895414362286@s.whatsapp.net": {
+      "autosimi": false,
+      "badword": false,
+      "antilink": false,
+      "antilinkgc": false,
+      "notification": {
+        "status": false,
+        "text_left": "",
+        "text_welcome": ""
+      }
+    },
+    "6285293786046@s.whatsapp.net": {
+      "autosimi": false,
+      "badword": false,
+      "antilink": false,
+      "antilinkgc": false,
+      "notification": {
+        "status": false,
+        "text_left": "",
+        "text_welcome": ""
+      }
+    },
+    "120363026401241793@g.us": {
+      "autosimi": false,
+      "badword": false,
+      "antilink": false,
+      "antilinkgc": false,
+      "notification": {
+        "status": false,
+        "text_left": "",
+        "text_welcome": ""
+      }
+    }
+  },
+  "game": {
+    "family100": [],
+    "tebaklagu": [],
+    "kuismath": [],
+    "tebalgambar": [],
+    "tebakkata": [],
+    "tebakkalimat": [],
+    "tebaklirik": [],
+    "tebaktebakan": [],
+    "tebakbendera": [],
+    "tebakbendera2": [],
+    "tebakanime": [],
+    "tebakkabupaten": [],
+    "tebakkimia": [],
+    "tebakasahotak": [],
+    "tebaksiapakahaku": [],
+    "tebaksusunkata": [],
+    "tebaktekateki": [],
+    "akinator": []
+  },
+  "settings": {
+    "6288988326132@s.whatsapp.net": {
+      "totalhit": 0,
+      "totalError": 0,
+      "typemenu": "v1",
+      "typereply": "v2",
+      "autobio": false,
+      "autoread": false,
+      "onlyindo": false,
+      "watermark": {
+        "packname": "Made By Xyugar-Bot",
+        "author": "wa.me/6288988326132"
+      },
+      "about": {
+        "bot": {
+          "nick": "Xyugar Sars",
+          "alias": "Xyugar Bot"
+        },
+        "owner": {
+          "nick": "Sangrama",
+          "alias": "6288224135175"
+        }
+      },
+      "autoblok212": true
+    }
+  }
+}
