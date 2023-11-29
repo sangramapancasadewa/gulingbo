@@ -14,13 +14,8 @@ const PhoneNumber = require('awesome-phonenumber')
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif')
 const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetch, await, sleep, reSize } = require('./lib/myfunc')
 const { default: sangramaConnect, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@whiskeysockets/baileys")
-const express = require ('express')
 
-let app = express()
-const { createServer } = require ('http')
-let server = createServer(app)
-let _qr = 'invalid'
-let PORT = 3000 || 8000 || 8080
+require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
 
 const store = makeInMemoryStore({
     logger: pino().child({
@@ -165,18 +160,7 @@ async function startRama() {
         const {
             connection,
             lastDisconnect,
-            qr
         } = update
-            if (qr){
-    app.use(async (req, res) => {
-    res.setHeader('content-type', 'image/png')
-    res.end(await toBuffer(qr))
-    })
-    app.use(express.static(path.join(__dirname, 'views')))
-    server.listen(PORT, () => {
-    console.log('App listened on port', PORT)
-    })
-    }
         try {
             if (connection === 'close') {
                 let reason = new Boom(lastDisconnect?.error)?.output.statusCode
